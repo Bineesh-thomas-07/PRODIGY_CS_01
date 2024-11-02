@@ -15,11 +15,15 @@ For decryption, the shift is simply negated to reverse the transformation.
 # Function main():
 
 This is the user interface for the program, prompting the user to choose between encrypting or decrypting a message, or exiting the program.
+
 Based on the choice, the program requests a message, shift value, and desired action (encrypt/decrypt).
+
 If encryption is selected, it applies a positive shift to the message, and for decryption, it applies a negative shift.
+
 The program also handles invalid inputs gracefully.
 
 # Sample Interactions
+
 # Encrypting a Message:
 Enter choice: 1
 
@@ -44,7 +48,9 @@ The decrypted message is: hello
 
 # Usage
 Run the program.
+
 Choose 1 to encrypt/decrypt a message or 2 to exit.
+
 Enter your message and shift value, then specify whether to encrypt or decrypt.
 
 
