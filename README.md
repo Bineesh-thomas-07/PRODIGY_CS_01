@@ -22,16 +22,24 @@ The program also handles invalid inputs gracefully.
 # Sample Interactions
 # Encrypting a Message:
 Enter choice: 1
+
 Enter your message: hello
+
 Enter the shift value (integer): 9
+
 Do you want to 'encrypt' or 'decrypt' the message? encrypt
+
 The encrypted message is: qnuux
 
 # Decrypting a Message:
 Enter choice: 1
+
 Enter your message: qnuux
+
 Enter the shift value (integer): 9
+
 Do you want to 'encrypt' or 'decrypt' the message? decrypt
+
 The decrypted message is: hello
 
 # Usage
